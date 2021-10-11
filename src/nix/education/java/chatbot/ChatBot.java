@@ -25,5 +25,20 @@ public class ChatBot {
         for (int i = 0; i <= count; i++){
             System.out.println(i + " !");
         }
+        System.out.println("Let's test your programming knowledge.");
+        System.out.println("Variety of forms is ... ? \n" +
+                "1. Inheritance.\n" +
+                "2. Polymorphism.\n" +
+                "3. Encapsulation.");
+
+        while (true) {
+            int variant = s.nextInt();
+            if (variant == 2){
+                    System.out.println("Great, you right!\n" +
+                            "Goodbye, have a nice day!");
+                    break;} else System.out.println("Please, try again.");
+
+
+        }
     }
 }
